@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/name: gitea
     app.kubernetes.io/instance: gitea
   annotations:
-    metallb.universe.tf/loadBalancerIPs: 172.18.0.200
+    metallb.universe.tf/loadBalancerIPs: 10.10.0.131
 spec:
   type: LoadBalancer
   ports:

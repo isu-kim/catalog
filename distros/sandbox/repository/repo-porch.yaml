@@ -9,7 +9,7 @@ spec:
   git:
     branch: main
     directory: /
-    repo: http://172.18.0.200:3000/nephio/example-cluster-name.git
+    repo: http://10.10.0.131:3000/nephio/example-cluster-name.git
     secretRef:
       name: example-cluster-name-access-token-porch
   type: git
